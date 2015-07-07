@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:background="@color/titlebar_bg">
+        <!--<ImageView-->
+        <!--android:id="@+id/imgBackCircle"-->
+        <!--android:layout_width="56dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@mipmap/icon_circle" />-->
+        <com.lr.ghp.progress.CountdownIndicator
+            android:id="@+id/countdownIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
